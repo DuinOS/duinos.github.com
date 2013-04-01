@@ -20,12 +20,17 @@ O link para clonagem é o seguinte: git@github.com:DuinOS/DuinOS.git
 Você pode usar qualquer ferramenta GIT que desejar, aqui irei mostrar como fazer na linha
 de comando:
 
+
 ```
 $ mkdir seu-workspace/DuinOS
+
 $ cd seu-workspace/DuinOS
+
 $ git clone git@github.com:DuinOS/DuinOS.git DuinOS
+
 $ cd seu-workspace/DuinOS
 ```
+
 Este pacote já vem pronto para usar com Arduino 1.0.x ou 1.5.x sendo que você deve usar o 
 Branch Master, os outros Branchs são para desenvolvimento.
 
@@ -40,4 +45,4 @@ do DuinOS para seu Arduino.
 
 Em novo artigo eu irei ensinar como fazer esta adaptação tanto para o Arduino 1.0.x e para o 1.5.x
 
-Para Suporte use o menu [Issues](https://github.com/DuinOS/DuinOS/issues)
+Para Suporte use o menu [Issues](https://github.com/DuinOS/DuinOS/issues) ou envie e-mail para duinos@carlosdelfino.eti.br
