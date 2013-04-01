@@ -1,5 +1,7 @@
 ---
 title: Clonando ou baixando o DuinOS
+tags: DuinOS, Zip, Git
+category : Tutoriais
 layout: post 
 ---
 
