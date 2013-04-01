@@ -7,7 +7,7 @@ layout: post
 
 Se você quer usar o pacote DuinOS em seu Arduino original você deve baixar este pacote.
 
-Há duas formas de se baixar o pacote, uma delas é usando a ferramenta git e na segunda 
+Há duas formas de se baixar o pacote, uma delas é usando a ferramenta GIT e a segunda 
 opção é o pacote zipado.
 
 ## Clonando o DuinOS
@@ -20,16 +20,13 @@ O link para clonagem é o seguinte: git@github.com:DuinOS/DuinOS.git
 Você pode usar qualquer ferramenta GIT que desejar, aqui irei mostrar como fazer na linha
 de comando:
 
-
 ```
 $ mkdir seu-workspace/DuinOS
-
 $ cd seu-workspace/DuinOS
-
 $ git clone git@github.com:DuinOS/DuinOS.git DuinOS
-
 $ cd seu-workspace/DuinOS
 ```
+
 
 Este pacote já vem pronto para usar com Arduino 1.0.x ou 1.5.x sendo que você deve usar o 
 Branch Master, os outros Branchs são para desenvolvimento.
