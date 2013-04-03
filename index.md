@@ -1,6 +1,7 @@
 ---
 layout: page
-title: DuinOS | Arduino + FreeRTOS
+title: DuinOS
+top: Arduino + FreeRTOS
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
