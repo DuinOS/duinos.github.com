@@ -19,5 +19,5 @@ Aguarde em breve mais detalhes, se deseja suporte, use o menu [Issue](https://gi
 
 ### Último Release
 
-* [IDE 1.0.5 com FreeRTOS/Duinos 7.4.0](/downloads/arduino-0105-duinos+freertos0740-macosx.zip)
-* [IDE 1.5.3 com FreeRTOS/Duinos 7.4.0](/downloads/arduino-1.5.3-duinos+freertos7.4.0-macosx.zip)
+* [IDE 1.0.5 com FreeRTOS/Duinos 7.4.0](/download/arduino-0105-duinos+freertos0740-macosx.zip)
+* [IDE 1.5.3 com FreeRTOS/Duinos 7.4.0](/download/arduino-1.5.3-duinos+freertos7.4.0-macosx.zip)
