@@ -1,6 +1,6 @@
 ---
 title: Versões baseadas no FreeRTOS 7.4.0 Libreradas
-tags: FreeRTOS, V7.4.0, Arduino, IDE, 1.0.5, Arduino, IDE, 1.5.3
+tags: FreeRTOS, V7.4.0, Arduino, IDE, 1.0.5, Arduino, IDE, 1.5.3, Windows, MacOS
 category : Downloads
 layout: post 
 ---
