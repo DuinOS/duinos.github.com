@@ -6,8 +6,7 @@ tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-Seja bem vindo ao site do Fork do DuinOS, um Framework para usar o [FreeRTOS](http://www.freertos.org) 
-com [Arduino](http://www.arduino.cc)
+Welcome to Fork DuinOS Site, a Framework for use the  [FreeRTOS](http://www.freertos.org) with [Arduino](http://www.arduino.cc)
 
 O DuinOS atualmente está portado para o FreeRTOS 7.4.0
 
@@ -24,8 +23,9 @@ Aguarde em breve mais detalhes, se deseja suporte, use o menu [Issue](https://gi
   * [IDE 1.5.3 com FreeRTOS/Duinos 7.4.0 para MacOS](/download/arduino-1.5.3-duinos+freertos7.4.0-macosx.zip)
 
 * Windows
-  * [IDE 1.0.5 com FreeRTOS/Duinos 7.4.0 para Windows](/download/arduino-0105-duinos+freertos0740-windows.zip)
-  * [IDE 1.5.3 com FreeRTOS/Duinos 7.4.0 para Windows](/download/arduino-1.5.3-duinos+freertos7.4.0-windows.zip)
+  * [IDE 1.0.5 com FreeRTOS/Duinos 7.4.0 para Windows](/download/arduino-0105-duinos+freertos-0740-windows.zip)
+  * [IDE 1.5.3 com FreeRTOS/Duinos 7.4.0 para Windows](/download/arduino-1.5.3-duinos+freertos-0740-windows.zip)
   
   * [IDE 1.0.5 com FreeRTOS/Duinos 7.4.0 para Experts no Windows](/download/arduino-0105-duinos+freertos0740-expert-windows.zip)
   * [IDE 1.5.3 com FreeRTOS/Duinos 7.4.0 para Experts no Windows](/download/arduino-1.5.3-duinos+freertos7.4.0-expert-windows.zip)
+ 
