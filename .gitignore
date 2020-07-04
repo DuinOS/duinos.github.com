@@ -19,3 +19,9 @@ pdfs/source-code-for-book-examples.zip
 !_config.yml
 _config_*.yml
 _config.*.yml
+_site/
+.sass-cache/
+.jekyll-metadata
+.jekyll-cache
+Gemfile.lock
+*.gem
