@@ -11,3 +11,7 @@ Thumbs.db
 /.settings
 
 /.pydevproject
+
+.vscode/
+pdfs/source-code-for-book-examples
+pdfs/source-code-for-book-examples.zip
