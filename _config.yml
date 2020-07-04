@@ -11,10 +11,10 @@ pygments: true
 #
 # site settings
 email: duinos@carlosdelfino.eti.br
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
 
 title : DuinOS
 subtitle: Arduino + FreeRTOS | Real Time OS for Arduino
+description: DuinOS is Framework (a wrapper) for use the FreeRTOS with Arduino.
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 

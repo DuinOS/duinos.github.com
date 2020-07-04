@@ -1,8 +1,10 @@
 ---
+layout: post
 title: Clonando ou baixando o DuinOS
+description: Como clonar ou baixar o DuinOS
+image: assets/images/pic06.jpg
 tags: DuinOS, Zip, Git
 category : Tutoriais
-layout: post 
 ---
 
 Se você quer usar o pacote DuinOS em seu Arduino original você deve baixar este pacote.
