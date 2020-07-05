@@ -29,6 +29,10 @@ The advantage obtained by becoming a sponsor is to be able to direct the develop
 
 Carlos Delfino as the Project maintainer is committed to seeking solutions that involve the use of DuinOS for the success of his project, dedicating some limited hours as a reward for the sponsorship, and a generous discount for overtime programming can even be negotiated.
 
+A support page will be created where 3 levels of support will be classified according to donations and sponsorships, **Patron**, **Sponsor** and ** Supporter **.
+
+The project's collaborators will also be listed with the classification of sponsors, classified as ** Supporters **.
+
 ## What Architectures Are Involved
 
 The DuinOS Project is primarily aimed at two architectures:
