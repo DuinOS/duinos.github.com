@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: Sponsor
 landing-title: 'Sponsor'
 nav-menu: true
