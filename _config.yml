@@ -24,7 +24,7 @@ description: DuinOS is Framework (a wrapper) for use the FreeRTOS with Arduino.
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://duinos.github.io
+production_url : https://duinos.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
