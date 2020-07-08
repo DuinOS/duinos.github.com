@@ -1,3 +1,7 @@
+---
+layout: raw
+---
+```
 GNU ld (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 2.29.51.20171128
   Supported emulations:
    armelf
@@ -278,3 +282,4 @@ attempt to open c:/users/admin/appdata/local/arduino15/packages/arduino/tools/ar
 c:/users/admin/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/7-2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/crtend.o
 attempt to open c:/users/admin/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/7-2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/crtn.o succeeded
 c:/users/admin/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/7-2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/crtn.o
+```

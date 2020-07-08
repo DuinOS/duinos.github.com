@@ -1,3 +1,7 @@
+---
+layout: raw
+---
+```
 GNU ld (GNU Binutils) 2.26.20160125
   Supported emulations:
    avr2
@@ -304,3 +308,4 @@ attempt to open c:/users/admin/appdata/local/arduino15/packages/arduino/tools/av
 attempt to open c:/users/admin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/avr5\libatmega328p.a failed
 attempt to open c:/users/admin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega328p.so failed
 attempt to open c:/users/admin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libatmega328p.a succeeded
+```

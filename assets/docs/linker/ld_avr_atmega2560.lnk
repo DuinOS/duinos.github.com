@@ -1,3 +1,7 @@
+---
+layout: raw
+---
+```
 GNU ld (GNU Binutils) 2.26.20160125
   Supported emulations:
    avr2
@@ -303,3 +307,4 @@ attempt to open c:/users/admin/appdata/local/arduino15/packages/arduino/tools/av
 attempt to open c:/users/admin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/avr6\libatmega2560.a failed
 attempt to open c:/users/admin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libatmega2560.so failed
 attempt to open c:/users/admin/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino5/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6\libatmega2560.a succeeded
+```

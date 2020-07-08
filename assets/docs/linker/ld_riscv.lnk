@@ -1,3 +1,7 @@
+---
+layout: raw
+---
+```
 GNU ld (GNU Binutils) 2.29
   Supported emulations:
    elf32lriscv
@@ -267,3 +271,4 @@ attempt to open c:/users/admin/appdata/local/arduino15/packages/fpgarduino/tools
 attempt to open c:/users/admin/appdata/local/arduino15/packages/fpgarduino/tools/f32c-compiler/1.0.0/bin/../lib/gcc/riscv32-elf/7.2.0/../../../../riscv32-elf/lib\libgloss.a failed
 attempt to open /usr/local/riscv32-elf/lib/libgloss.so failed
 attempt to open /usr/local/riscv32-elf/lib\libgloss.a failed
+```
