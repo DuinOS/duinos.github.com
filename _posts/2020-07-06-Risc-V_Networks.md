@@ -7,13 +7,18 @@ tags: DuinOS, Zip, Git
 category : Tutoriais
 ---
 
-Grupo para troca de informações e aprendizado sobre a Arquitetura RISC-V, grupo de alto foco, não é de bate papo: 
+Grupo para troca de informações e aprendizado sobre a Arquitetura RISC-V, grupo de alto foco, não é de bate papo.
 
+<!--more-->
+
+O Objetivo do grupo é a troca de informações, auxilio em projetos e aos inciantes com projetos como por exemplo o uso do DuinOS com o FPGArduino.
+
+## Regras do grupo
+
+É um grupo de auto foco e não será permitido bate papos, serei enfático quanto a manutenção do foco do grupo, removendo se preciso sem prévio aviso.
+
+## Link temporário para o grupo:
 [https://chat.whatsapp.com/GVo8Dh2GsZuBgybl5v3USj](https://chat.whatsapp.com/GVo8Dh2GsZuBgybl5v3USj)
 
 O Link será desativado, quando começarmos a ter problemas com Spammers.
 Então gerarei outro para convite de conhecidos apenas.
-
-O Objetivo do grupo é a troca de informações, auxilio em projetos e aos inciantes com projetos como por exemplo o uso do DuinOS com o FPGArduino.
-
-É um grupo de auto foco e não será permitido bate papos, serei enfático quanto a manutenção do foco do grupo, removendo se preciso sem prévio aviso.

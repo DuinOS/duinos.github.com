@@ -2,7 +2,12 @@
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:categories/:year/:month/:day/:title 
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".vscode"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".vscode", "_config_local.yml"]
+keep_files: ["assets/docs/pdfs", "assets/extras"]
+
+excerpt_separator: <!--more-->
+timezone: America/Fortaleza
+
 auto: true
 pygments: true
 
