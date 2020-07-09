@@ -1,9 +1,80 @@
-<head>
+<head profile="http://www.w3.org/2005/10/profile">
+	<!--[if lt IE 9]><script src="/js/modernizr.custom.03289.js"></script><![endif]-->
+		 <!-- HTML5 Shiv and Media Query Support for IE -->
+		 <!--[if lt IE 9]>
+			<script src="{{ site.url }}/js/html5shiv.min.js" async></script>
+			<script src="{{ site.url }}/js/respond.min.js" async></script>
+	<![endif]-->
+	{% if page.refresh %}   <meta http-equiv="refresh" content="{{ page.refresh.time }}; url={{ page.refresh.url }}" />
+	{% endif %}
 	<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-	<meta charset="utf-8" />
+	<meta charset="{{ site.charset | default 'utf-8' }}"  />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<!--[if lte IE 8]><script src="{{ "assets/js/ie/html5shiv.js" | relative_url }}"></script><![endif]-->
+	{%- assign description = page.description | default: page.excerpt | default: site.description | default: 'Sem Descrição' | strip_html -%}
+	<meta name="description" content="{{ description }}" />
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="MobileOptimized" content="320" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="cleartype" content="on" />
+<!--[if lte IE 8]><script src="{{ "assets/js/ie/html5shiv.js" | relative_url }}"></script><![endif]-->
 	<link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}" />
 	<!--[if lte IE 9]><link rel="stylesheet" href="{{ "assets/css/ie9.css" | relative_url }}" /><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="{{ "assets/css/ie8.css" | relative_url }}" /><![endif]-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	{%- if site.webmaster_verifications.google_site -%}
+	<meta name="google-site-verification" content="{{ site.webmaster_verifications.google_site }}" />
+	{%- endif -%}
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	{% if page.favicon %}{% assign favicon = page.favicon %}{% else %}{% assign favicon = site.favicon | default: "/favicon.ico" %}{% endif %}
+	<link rel="icon" type="image/png" href="{{ favicon }}" />
+	<meta name="keywords" content="{{ page.tags | default: site.keywords | join: ', ' }}" />{% if page.author %}
+		{% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
+	{% endif %}
+	{% include open-graph.html %}
+	{% if author.google.plus %} <link rel="author" href="https://plus.google.com/{{ author.google.plus }}" />{% endif %}
+	{% if mastodon %}
+	  {% if mastodon.social %}<a rel="me" href="https://mastodon.social/@mastodon.social.id">Mastodon</a>{% endif %}
+	  {% if mastodon.bitcoinhacker %}<a rel="me" href="https://mastodon.social/@mastodon.bitcoinhacker.id">Mastodon</a>{% endif %}
+	{% endif %}  
+		<link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed" />
+		<link href="{{ site.url }}/sitemap.txt" type="application/text" rel="sitemap" title="Sitemap" />
+	<!-- Js -->
+	{% if page.math or page.math.version  %}
+		{% if page.math.version == 3 %}
+			<script >
+			MathJax = {
+				tex: {
+					inlineMath: [['$', '$'], ['\\(', '\\)']]
+				}
+			};
+			</script>
+		{% else %}
+		  <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+			});
+			</script>
+		{% endif %}
+		{% if page.math.version == 3 %}
+			<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+			<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.0/es5/tex-mml-chtml.js"></script>
+		{% else %}
+			<script type="text/javascript" async
+				src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML">
+			</script>
+		{% endif %}
+	{% endif %}
+	{% if site.aedes.show == true %}
+	  {% include aedes/index.html %}
+	{% endif %}
+		 <script type="text/javascript">
+		 <!--
+			  pagePreCustonFuntions = function(){
+			  {% for js_function in page.custom_js.functions.pre %}
+				 {{ js_function }};
+			  {% endfor %}
+			  };
+			  pagePreCustonFuntions();
+		 -->
+		 </script>
 </head>

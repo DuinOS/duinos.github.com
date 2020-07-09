@@ -60,6 +60,7 @@ JB :
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
+baseimage: "/assets/images
 author: Carlos Delfino
 street_address: R. Jose Alves Pereira, 50, Casa 1
 city: Aquiraz
@@ -73,7 +74,7 @@ tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
 
 # social settings
-500px_url:
+500px_url: duinos_large.jpg
 facebook_url: https://facebook.com/CursoMaker
 github_url: https://github.com/DuinOS
 gitlab_url: https://gitlab.com/DuinOS
