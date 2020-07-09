@@ -14,3 +14,7 @@ show_tile: false
 DuinOS is Framework (a wrapper) for use the  [FreeRTOS](http://www.freertos.org) with [Arduino](http://www.arduino.cc).
 
 DuinOS is currently ported to FreeRTOS 7.4.0, and from 01/07/2020 I am working on the new version with FreeRTOS 10 and soon with Cortex-M for Arduino Zero and Arduino Due, and too Risc-V with [FPGArduino](http://www.nxlab.fer.hr/fpgarduino).
+
+## Special projects
+
+If you are looking for a solution and haven't found it in DuinOS please contact us using the form below, I will help you find it. We provide consulting and personalized development services as well.
